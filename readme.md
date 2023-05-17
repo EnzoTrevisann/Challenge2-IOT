@@ -1,7 +1,7 @@
 <h1 align="center"> Soul Coderz </h1>
 
 <p align="center">
-O projeto ChatGPT tem como objetivo melhorar o atendimento ao cliente da empresa Plusoft<br/>
+O projeto Soul Coderz tem como objetivo melhorar o atendimento ao cliente da empresa Plusoft<br/>
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O problema que o nosso projeto se propõe a resolver é de fornecer um atendimento personalizado e eficiente aos clientes, além de reduzir o tempo de resposta ao cliente e melhorar a escalabilidade do suporte.
+O objetivo do nosso projeto é de fornecer um atendimento personalizado e eficiente aos clientes, além de reduzir o tempo de resposta ao cliente e melhorar a escalabilidade do suporte.
 
 
 ## 🎨 Layout
