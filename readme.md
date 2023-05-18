@@ -20,6 +20,20 @@ O projeto Soul Coderz tem como objetivo melhorar o atendimento ao cliente da emp
   <img alt="projeto habits tracker" src=".github/preview.png" width="100%">
 </p>
 
+## 🚀 Como executar
+
+Clone o projeto e acesse a pasta do mesmo.
+```bash
+$ git clone https://github.com/EnzoTrevisann/Challenge2-IOT
+$ cd Challenge2-IOT
+```
+
+Para iniciá-lo, siga os passos abaixo:
+
+```bash
+pip install openai
+```
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:

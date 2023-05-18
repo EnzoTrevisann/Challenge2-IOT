@@ -1,21 +1,16 @@
 import openai
 
 # OPENAI API KEY
-openai.api_key = ''
+openai.api_key = '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'
 
 # função que envia uma solicitação a API e recebe a resposta
-
-
 def enviar_solicitacao(texto):
     resposta = openai.Completion.create(
-        # mecanismo de geração de texto a ser usado.
-        engine='text-davinci-003',
-        # representa a pergunta/frase que você deseja usar para solicitar uma resposta do modelo.
-        prompt=texto,
+        engine='text-davinci-003', # mecanismo de geração de texto a ser usado.
+        prompt=texto,  # representa a pergunta/frase que você deseja usar para solicitar uma resposta do modelo.
         max_tokens=120,  # número máximo de caracteres
         n=1,  # número de respostas geradas.
-        # especifica um token de parada personalizado para interromper a geração do texto.
-        stop=None,
+        stop=None, # especifica um token de parada personalizado para interromper a geração do texto.
         temperature=0.7  # controla a aleatoriedade das respostas geradas.
     )
     return resposta.choices[0].text.strip()
