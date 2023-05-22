@@ -1,7 +1,7 @@
 import openai
 
 # OPENAI API KEY
-openai.api_key = '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'
+openai.api_key = ''
 
 # função que envia uma solicitação a API e recebe a resposta
 def enviar_solicitacao(texto):
@@ -31,9 +31,6 @@ while True:
             print(
                 "Certo, se você tiver mais alguma dúvida, fique à vontade para perguntar.")
             break
-
-    if entrada.lower() == 'sair':
-        break
 
     resposta = enviar_solicitacao(entrada)
     print("Plusoft Chatbot: " + resposta)
